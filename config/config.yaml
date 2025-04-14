@@ -1,0 +1,26 @@
+# Pipeline configuration
+
+# Database paths
+databases:
+  kegg_db: "/path/to/kegg/db"
+  cazy_db: "/path/to/cazy/db"
+  gtdb_db: "/path/to/gtdb/db"
+
+# File extensions and patterns
+files:
+  bin_extension: "fa"
+  fastq_extensions: [".fastq", ".fq"]
+  taxonomy_summary: "gtdbtk.bac120.summary.tsv"
+
+# Tool parameters
+trimmomatic:
+  params: "ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36"
+
+megahit:
+  min_contig_len: 1000
+  k_min: 21
+  k_max: 141
+  k_step: 20
+
+metabat:
+  min_bin_size: 2000
