@@ -1,0 +1,690 @@
+2025-04-14 15:03:11,058 - ERROR - Pipeline failed: module 'utils.file_utils' has no attribute 'create_dir'
+2025-04-14 20:46:09,935 - INFO - Command succeeded: esearch -db sra -query PRJNA516054 | efetch -format runinfo > ./results/runinfo.csv
+2025-04-14 20:46:09,973 - INFO - Found 98 SRA accessions
+2025-04-14 20:46:09,974 - INFO - Processing SRR10338819
+2025-04-14 20:46:10,567 - ERROR - Command failed: prefetch SRR10338819 --output-directory ./results/raw_data
+2025-04-14 20:46:10,568 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:11,135 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338819/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:11,136 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:11,138 - INFO - Processing SRR10338818
+2025-04-14 20:46:11,675 - ERROR - Command failed: prefetch SRR10338818 --output-directory ./results/raw_data
+2025-04-14 20:46:11,676 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:12,250 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338818/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:12,252 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:12,253 - INFO - Processing SRR10338807
+2025-04-14 20:46:12,852 - ERROR - Command failed: prefetch SRR10338807 --output-directory ./results/raw_data
+2025-04-14 20:46:12,853 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:13,421 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338807/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:13,422 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:13,423 - INFO - Processing SRR10338798
+2025-04-14 20:46:14,042 - ERROR - Command failed: prefetch SRR10338798 --output-directory ./results/raw_data
+2025-04-14 20:46:14,043 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:14,663 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338798/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:14,664 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:14,664 - INFO - Processing SRR10338797
+2025-04-14 20:46:15,270 - ERROR - Command failed: prefetch SRR10338797 --output-directory ./results/raw_data
+2025-04-14 20:46:15,271 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:15,842 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338797/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:15,843 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:15,844 - INFO - Processing SRR10338796
+2025-04-14 20:46:16,469 - ERROR - Command failed: prefetch SRR10338796 --output-directory ./results/raw_data
+2025-04-14 20:46:16,469 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:17,073 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338796/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:17,074 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:17,075 - INFO - Processing SRR10338795
+2025-04-14 20:46:17,650 - ERROR - Command failed: prefetch SRR10338795 --output-directory ./results/raw_data
+2025-04-14 20:46:17,650 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:18,241 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338795/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:18,242 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:18,243 - INFO - Processing SRR10338794
+2025-04-14 20:46:18,874 - ERROR - Command failed: prefetch SRR10338794 --output-directory ./results/raw_data
+2025-04-14 20:46:18,875 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:19,435 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338794/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:19,435 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:19,436 - INFO - Processing SRR10338793
+2025-04-14 20:46:19,981 - ERROR - Command failed: prefetch SRR10338793 --output-directory ./results/raw_data
+2025-04-14 20:46:19,982 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:20,562 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338793/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:20,564 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:20,565 - INFO - Processing SRR10338792
+2025-04-14 20:46:21,219 - ERROR - Command failed: prefetch SRR10338792 --output-directory ./results/raw_data
+2025-04-14 20:46:21,220 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:21,795 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338792/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:21,796 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:21,797 - INFO - Processing SRR10338817
+2025-04-14 20:46:22,315 - ERROR - Command failed: prefetch SRR10338817 --output-directory ./results/raw_data
+2025-04-14 20:46:22,316 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:22,965 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338817/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:22,966 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:22,967 - INFO - Processing SRR10338816
+2025-04-14 20:46:23,625 - ERROR - Command failed: prefetch SRR10338816 --output-directory ./results/raw_data
+2025-04-14 20:46:23,626 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:24,195 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338816/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:24,196 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:24,197 - INFO - Processing SRR10338815
+2025-04-14 20:46:24,778 - ERROR - Command failed: prefetch SRR10338815 --output-directory ./results/raw_data
+2025-04-14 20:46:24,779 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:25,390 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338815/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:25,391 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:25,392 - INFO - Processing SRR10338814
+2025-04-14 20:46:25,978 - ERROR - Command failed: prefetch SRR10338814 --output-directory ./results/raw_data
+2025-04-14 20:46:25,979 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:26,549 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338814/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:26,550 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:26,552 - INFO - Processing SRR10338813
+2025-04-14 20:46:27,155 - ERROR - Command failed: prefetch SRR10338813 --output-directory ./results/raw_data
+2025-04-14 20:46:27,156 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:27,737 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338813/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:27,737 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:27,738 - INFO - Processing SRR10338812
+2025-04-14 20:46:28,377 - ERROR - Command failed: prefetch SRR10338812 --output-directory ./results/raw_data
+2025-04-14 20:46:28,378 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:28,903 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338812/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:28,904 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:28,904 - INFO - Processing SRR10338811
+2025-04-14 20:46:29,548 - ERROR - Command failed: prefetch SRR10338811 --output-directory ./results/raw_data
+2025-04-14 20:46:29,549 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:30,153 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338811/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:30,154 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:30,155 - INFO - Processing SRR10338810
+2025-04-14 20:46:30,716 - ERROR - Command failed: prefetch SRR10338810 --output-directory ./results/raw_data
+2025-04-14 20:46:30,717 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:31,201 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338810/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:31,202 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:31,202 - INFO - Processing SRR10338809
+2025-04-14 20:46:31,783 - ERROR - Command failed: prefetch SRR10338809 --output-directory ./results/raw_data
+2025-04-14 20:46:31,784 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:32,355 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338809/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:32,356 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:32,357 - INFO - Processing SRR10338808
+2025-04-14 20:46:32,943 - ERROR - Command failed: prefetch SRR10338808 --output-directory ./results/raw_data
+2025-04-14 20:46:32,944 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:33,527 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338808/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:33,528 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:33,529 - INFO - Processing SRR10338806
+2025-04-14 20:46:34,117 - ERROR - Command failed: prefetch SRR10338806 --output-directory ./results/raw_data
+2025-04-14 20:46:34,118 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:34,661 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338806/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:34,662 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:34,663 - INFO - Processing SRR10338805
+2025-04-14 20:46:35,308 - ERROR - Command failed: prefetch SRR10338805 --output-directory ./results/raw_data
+2025-04-14 20:46:35,310 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:35,938 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338805/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:35,939 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:35,940 - INFO - Processing SRR10338804
+2025-04-14 20:46:36,548 - ERROR - Command failed: prefetch SRR10338804 --output-directory ./results/raw_data
+2025-04-14 20:46:36,549 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:37,107 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338804/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:37,108 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:37,108 - INFO - Processing SRR10338800
+2025-04-14 20:46:37,683 - ERROR - Command failed: prefetch SRR10338800 --output-directory ./results/raw_data
+2025-04-14 20:46:37,684 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:38,281 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338800/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:38,282 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:38,283 - INFO - Processing SRR10338799
+2025-04-14 20:46:38,851 - ERROR - Command failed: prefetch SRR10338799 --output-directory ./results/raw_data
+2025-04-14 20:46:38,852 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:39,438 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338799/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:39,439 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:39,440 - INFO - Processing SRR8524513
+2025-04-14 20:46:40,049 - ERROR - Command failed: prefetch SRR8524513 --output-directory ./results/raw_data
+2025-04-14 20:46:40,050 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:40,609 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524513/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:40,611 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:40,612 - INFO - Processing SRR8524514
+2025-04-14 20:46:41,221 - ERROR - Command failed: prefetch SRR8524514 --output-directory ./results/raw_data
+2025-04-14 20:46:41,222 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:41,782 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524514/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:41,783 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:41,783 - INFO - Processing SRR8524508
+2025-04-14 20:46:42,379 - ERROR - Command failed: prefetch SRR8524508 --output-directory ./results/raw_data
+2025-04-14 20:46:42,380 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:43,005 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524508/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:43,006 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:43,007 - INFO - Processing SRR8524512
+2025-04-14 20:46:43,538 - ERROR - Command failed: prefetch SRR8524512 --output-directory ./results/raw_data
+2025-04-14 20:46:43,538 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:44,141 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524512/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:44,142 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:44,143 - INFO - Processing SRR8524526
+2025-04-14 20:46:44,727 - ERROR - Command failed: prefetch SRR8524526 --output-directory ./results/raw_data
+2025-04-14 20:46:44,728 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:45,344 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524526/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:45,345 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:45,345 - INFO - Processing SRR8524521
+2025-04-14 20:46:45,973 - ERROR - Command failed: prefetch SRR8524521 --output-directory ./results/raw_data
+2025-04-14 20:46:45,974 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:46,520 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524521/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:46,521 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:46,522 - INFO - Processing SRR8524524
+2025-04-14 20:46:47,139 - ERROR - Command failed: prefetch SRR8524524 --output-directory ./results/raw_data
+2025-04-14 20:46:47,140 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:47,757 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524524/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:47,757 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:47,758 - INFO - Processing SRR8524527
+2025-04-14 20:46:48,362 - ERROR - Command failed: prefetch SRR8524527 --output-directory ./results/raw_data
+2025-04-14 20:46:48,363 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:48,908 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524527/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:48,909 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:48,910 - INFO - Processing SRR8524522
+2025-04-14 20:46:49,547 - ERROR - Command failed: prefetch SRR8524522 --output-directory ./results/raw_data
+2025-04-14 20:46:49,548 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:50,137 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524522/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:50,138 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:50,139 - INFO - Processing SRR8524509
+2025-04-14 20:46:50,717 - ERROR - Command failed: prefetch SRR8524509 --output-directory ./results/raw_data
+2025-04-14 20:46:50,718 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:51,334 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524509/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:51,335 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:51,336 - INFO - Processing SRR8524517
+2025-04-14 20:46:51,967 - ERROR - Command failed: prefetch SRR8524517 --output-directory ./results/raw_data
+2025-04-14 20:46:51,968 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:52,579 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524517/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:52,580 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:52,581 - INFO - Processing SRR8524518
+2025-04-14 20:46:53,181 - ERROR - Command failed: prefetch SRR8524518 --output-directory ./results/raw_data
+2025-04-14 20:46:53,182 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:53,765 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524518/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:53,766 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:53,767 - INFO - Processing SRR8524519
+2025-04-14 20:46:54,355 - ERROR - Command failed: prefetch SRR8524519 --output-directory ./results/raw_data
+2025-04-14 20:46:54,356 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:54,974 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524519/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:54,975 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:54,976 - INFO - Processing SRR8524520
+2025-04-14 20:46:55,611 - ERROR - Command failed: prefetch SRR8524520 --output-directory ./results/raw_data
+2025-04-14 20:46:55,612 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:56,227 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524520/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:56,228 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:56,229 - INFO - Processing SRR8524523
+2025-04-14 20:46:56,791 - ERROR - Command failed: prefetch SRR8524523 --output-directory ./results/raw_data
+2025-04-14 20:46:56,792 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:57,401 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524523/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:57,402 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:57,403 - INFO - Processing SRR8524525
+2025-04-14 20:46:57,998 - ERROR - Command failed: prefetch SRR8524525 --output-directory ./results/raw_data
+2025-04-14 20:46:57,999 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:58,566 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524525/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:58,567 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:58,568 - INFO - Processing SRR8524515
+2025-04-14 20:46:59,165 - ERROR - Command failed: prefetch SRR8524515 --output-directory ./results/raw_data
+2025-04-14 20:46:59,166 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:46:59,741 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524515/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:46:59,742 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:46:59,743 - INFO - Processing SRR8524516
+2025-04-14 20:47:00,375 - ERROR - Command failed: prefetch SRR8524516 --output-directory ./results/raw_data
+2025-04-14 20:47:00,376 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:00,913 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524516/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:00,914 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:00,915 - INFO - Processing SRR8524510
+2025-04-14 20:47:01,470 - ERROR - Command failed: prefetch SRR8524510 --output-directory ./results/raw_data
+2025-04-14 20:47:01,471 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:02,052 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524510/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:02,052 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:02,053 - INFO - Processing SRR8524511
+2025-04-14 20:47:02,695 - ERROR - Command failed: prefetch SRR8524511 --output-directory ./results/raw_data
+2025-04-14 20:47:02,695 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:03,285 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8524511/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:03,286 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:03,287 - INFO - Processing SRR10338803
+2025-04-14 20:47:03,899 - ERROR - Command failed: prefetch SRR10338803 --output-directory ./results/raw_data
+2025-04-14 20:47:03,899 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:04,534 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338803/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:04,535 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:04,536 - INFO - Processing SRR10338802
+2025-04-14 20:47:05,154 - ERROR - Command failed: prefetch SRR10338802 --output-directory ./results/raw_data
+2025-04-14 20:47:05,155 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:05,692 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338802/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:05,693 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:05,694 - INFO - Processing SRR10338801
+2025-04-14 20:47:06,274 - ERROR - Command failed: prefetch SRR10338801 --output-directory ./results/raw_data
+2025-04-14 20:47:06,275 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:06,790 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR10338801/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:06,791 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:06,792 - INFO - Processing SRR8490389
+2025-04-14 20:47:07,396 - ERROR - Command failed: prefetch SRR8490389 --output-directory ./results/raw_data
+2025-04-14 20:47:07,397 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:07,987 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490389/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:07,988 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:07,989 - INFO - Processing SRR8490384
+2025-04-14 20:47:08,553 - ERROR - Command failed: prefetch SRR8490384 --output-directory ./results/raw_data
+2025-04-14 20:47:08,555 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:09,133 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490384/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:09,133 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:09,134 - INFO - Processing SRR8490388
+2025-04-14 20:47:09,744 - ERROR - Command failed: prefetch SRR8490388 --output-directory ./results/raw_data
+2025-04-14 20:47:09,745 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:10,378 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490388/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:10,379 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:10,380 - INFO - Processing SRR8490394
+2025-04-14 20:47:10,947 - ERROR - Command failed: prefetch SRR8490394 --output-directory ./results/raw_data
+2025-04-14 20:47:10,948 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:11,505 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490394/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:11,506 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:11,507 - INFO - Processing SRR8490387
+2025-04-14 20:47:12,097 - ERROR - Command failed: prefetch SRR8490387 --output-directory ./results/raw_data
+2025-04-14 20:47:12,098 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:12,710 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490387/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:12,710 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:12,711 - INFO - Processing SRR8490395
+2025-04-14 20:47:13,263 - ERROR - Command failed: prefetch SRR8490395 --output-directory ./results/raw_data
+2025-04-14 20:47:13,264 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:13,865 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490395/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:13,866 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:13,866 - INFO - Processing SRR8490386
+2025-04-14 20:47:14,463 - ERROR - Command failed: prefetch SRR8490386 --output-directory ./results/raw_data
+2025-04-14 20:47:14,464 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:14,974 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490386/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:14,975 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:14,976 - INFO - Processing SRR8490393
+2025-04-14 20:47:15,531 - ERROR - Command failed: prefetch SRR8490393 --output-directory ./results/raw_data
+2025-04-14 20:47:15,532 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:16,046 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490393/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:16,047 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:16,048 - INFO - Processing SRR8490392
+2025-04-14 20:47:16,631 - ERROR - Command failed: prefetch SRR8490392 --output-directory ./results/raw_data
+2025-04-14 20:47:16,632 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:17,227 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490392/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:17,228 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:17,229 - INFO - Processing SRR8490391
+2025-04-14 20:47:17,812 - ERROR - Command failed: prefetch SRR8490391 --output-directory ./results/raw_data
+2025-04-14 20:47:17,813 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:18,441 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490391/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:18,442 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:18,442 - INFO - Processing SRR8490390
+2025-04-14 20:47:19,023 - ERROR - Command failed: prefetch SRR8490390 --output-directory ./results/raw_data
+2025-04-14 20:47:19,024 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:19,592 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490390/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:19,593 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:19,594 - INFO - Processing SRR8490385
+2025-04-14 20:47:20,175 - ERROR - Command failed: prefetch SRR8490385 --output-directory ./results/raw_data
+2025-04-14 20:47:20,176 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:20,751 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490385/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:20,752 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:20,753 - INFO - Processing SRR9021260
+2025-04-14 20:47:21,366 - ERROR - Command failed: prefetch SRR9021260 --output-directory ./results/raw_data
+2025-04-14 20:47:21,367 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:21,989 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021260/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:21,989 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:21,990 - INFO - Processing SRR9021261
+2025-04-14 20:47:22,563 - ERROR - Command failed: prefetch SRR9021261 --output-directory ./results/raw_data
+2025-04-14 20:47:22,564 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:23,193 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021261/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:23,195 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:23,196 - INFO - Processing SRR9021262
+2025-04-14 20:47:23,821 - ERROR - Command failed: prefetch SRR9021262 --output-directory ./results/raw_data
+2025-04-14 20:47:23,822 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:24,393 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021262/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:24,394 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:24,395 - INFO - Processing SRR9021263
+2025-04-14 20:47:25,031 - ERROR - Command failed: prefetch SRR9021263 --output-directory ./results/raw_data
+2025-04-14 20:47:25,033 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:25,683 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021263/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:25,684 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:25,685 - INFO - Processing SRR9021264
+2025-04-14 20:47:26,303 - ERROR - Command failed: prefetch SRR9021264 --output-directory ./results/raw_data
+2025-04-14 20:47:26,304 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:26,879 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021264/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:26,880 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:26,881 - INFO - Processing SRR9021265
+2025-04-14 20:47:27,487 - ERROR - Command failed: prefetch SRR9021265 --output-directory ./results/raw_data
+2025-04-14 20:47:27,489 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:28,117 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021265/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:28,118 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:28,118 - INFO - Processing SRR9021266
+2025-04-14 20:47:28,647 - ERROR - Command failed: prefetch SRR9021266 --output-directory ./results/raw_data
+2025-04-14 20:47:28,648 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:29,270 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021266/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:29,271 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:29,271 - INFO - Processing SRR9021267
+2025-04-14 20:47:29,909 - ERROR - Command failed: prefetch SRR9021267 --output-directory ./results/raw_data
+2025-04-14 20:47:29,910 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:30,518 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021267/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:30,519 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:30,520 - INFO - Processing SRR9021268
+2025-04-14 20:47:31,137 - ERROR - Command failed: prefetch SRR9021268 --output-directory ./results/raw_data
+2025-04-14 20:47:31,138 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:31,703 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021268/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:31,704 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:31,705 - INFO - Processing SRR9021269
+2025-04-14 20:47:32,359 - ERROR - Command failed: prefetch SRR9021269 --output-directory ./results/raw_data
+2025-04-14 20:47:32,360 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:32,967 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021269/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:32,968 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:32,968 - INFO - Processing SRR9021254
+2025-04-14 20:47:33,574 - ERROR - Command failed: prefetch SRR9021254 --output-directory ./results/raw_data
+2025-04-14 20:47:33,575 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:34,190 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021254/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:34,190 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:34,191 - INFO - Processing SRR9021255
+2025-04-14 20:47:34,777 - ERROR - Command failed: prefetch SRR9021255 --output-directory ./results/raw_data
+2025-04-14 20:47:34,778 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:35,389 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021255/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:35,390 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:35,391 - INFO - Processing SRR9021256
+2025-04-14 20:47:36,007 - ERROR - Command failed: prefetch SRR9021256 --output-directory ./results/raw_data
+2025-04-14 20:47:36,008 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:36,601 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021256/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:36,602 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:36,602 - INFO - Processing SRR9021257
+2025-04-14 20:47:37,166 - ERROR - Command failed: prefetch SRR9021257 --output-directory ./results/raw_data
+2025-04-14 20:47:37,167 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:37,845 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021257/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:37,846 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:37,847 - INFO - Processing SRR9021250
+2025-04-14 20:47:38,494 - ERROR - Command failed: prefetch SRR9021250 --output-directory ./results/raw_data
+2025-04-14 20:47:38,495 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:39,103 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021250/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:39,104 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:39,104 - INFO - Processing SRR9021251
+2025-04-14 20:47:39,704 - ERROR - Command failed: prefetch SRR9021251 --output-directory ./results/raw_data
+2025-04-14 20:47:39,705 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:40,378 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021251/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:40,379 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:40,379 - INFO - Processing SRR9021252
+2025-04-14 20:47:40,944 - ERROR - Command failed: prefetch SRR9021252 --output-directory ./results/raw_data
+2025-04-14 20:47:40,945 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:41,515 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021252/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:41,516 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:41,517 - INFO - Processing SRR9021253
+2025-04-14 20:47:42,162 - ERROR - Command failed: prefetch SRR9021253 --output-directory ./results/raw_data
+2025-04-14 20:47:42,163 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:42,798 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021253/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:42,798 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:42,799 - INFO - Processing SRR9021258
+2025-04-14 20:47:43,370 - ERROR - Command failed: prefetch SRR9021258 --output-directory ./results/raw_data
+2025-04-14 20:47:43,371 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:43,967 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021258/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:43,968 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:43,969 - INFO - Processing SRR9021259
+2025-04-14 20:47:44,544 - ERROR - Command failed: prefetch SRR9021259 --output-directory ./results/raw_data
+2025-04-14 20:47:44,545 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:45,133 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR9021259/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:45,134 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:45,135 - INFO - Processing SRR8490407
+2025-04-14 20:47:45,722 - ERROR - Command failed: prefetch SRR8490407 --output-directory ./results/raw_data
+2025-04-14 20:47:45,723 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:46,350 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490407/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:46,350 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:46,351 - INFO - Processing SRR8490406
+2025-04-14 20:47:46,972 - ERROR - Command failed: prefetch SRR8490406 --output-directory ./results/raw_data
+2025-04-14 20:47:46,973 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:47,585 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490406/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:47,586 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:47,587 - INFO - Processing SRR8490409
+2025-04-14 20:47:48,213 - ERROR - Command failed: prefetch SRR8490409 --output-directory ./results/raw_data
+2025-04-14 20:47:48,214 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:48,840 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490409/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:48,841 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:48,842 - INFO - Processing SRR8490408
+2025-04-14 20:47:49,445 - ERROR - Command failed: prefetch SRR8490408 --output-directory ./results/raw_data
+2025-04-14 20:47:49,446 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:50,013 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490408/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:50,013 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:50,014 - INFO - Processing SRR8490411
+2025-04-14 20:47:50,606 - ERROR - Command failed: prefetch SRR8490411 --output-directory ./results/raw_data
+2025-04-14 20:47:50,606 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:51,172 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490411/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:51,173 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:51,173 - INFO - Processing SRR8490410
+2025-04-14 20:47:51,755 - ERROR - Command failed: prefetch SRR8490410 --output-directory ./results/raw_data
+2025-04-14 20:47:51,755 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:52,354 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490410/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:52,355 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:52,356 - INFO - Processing SRR8490413
+2025-04-14 20:47:52,975 - ERROR - Command failed: prefetch SRR8490413 --output-directory ./results/raw_data
+2025-04-14 20:47:52,976 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:53,575 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490413/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:53,576 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:53,577 - INFO - Processing SRR8490412
+2025-04-14 20:47:54,128 - ERROR - Command failed: prefetch SRR8490412 --output-directory ./results/raw_data
+2025-04-14 20:47:54,129 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:54,699 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490412/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:54,700 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:54,701 - INFO - Processing SRR8490405
+2025-04-14 20:47:55,279 - ERROR - Command failed: prefetch SRR8490405 --output-directory ./results/raw_data
+2025-04-14 20:47:55,280 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:55,862 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490405/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:55,863 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:55,863 - INFO - Processing SRR8490404
+2025-04-14 20:47:56,451 - ERROR - Command failed: prefetch SRR8490404 --output-directory ./results/raw_data
+2025-04-14 20:47:56,452 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:57,010 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490404/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:57,011 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:57,012 - INFO - Processing SRR8490400
+2025-04-14 20:47:57,575 - ERROR - Command failed: prefetch SRR8490400 --output-directory ./results/raw_data
+2025-04-14 20:47:57,576 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:58,162 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490400/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:58,163 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:58,164 - INFO - Processing SRR8490402
+2025-04-14 20:47:58,773 - ERROR - Command failed: prefetch SRR8490402 --output-directory ./results/raw_data
+2025-04-14 20:47:58,774 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:47:59,362 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490402/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:47:59,363 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:47:59,363 - INFO - Processing SRR8490401
+2025-04-14 20:47:59,896 - ERROR - Command failed: prefetch SRR8490401 --output-directory ./results/raw_data
+2025-04-14 20:47:59,897 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:48:00,454 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490401/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:48:00,455 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:48:00,456 - INFO - Processing SRR8490403
+2025-04-14 20:48:01,042 - ERROR - Command failed: prefetch SRR8490403 --output-directory ./results/raw_data
+2025-04-14 20:48:01,043 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:48:01,559 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490403/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:48:01,560 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:48:01,561 - INFO - Processing SRR8490396
+2025-04-14 20:48:02,168 - ERROR - Command failed: prefetch SRR8490396 --output-directory ./results/raw_data
+2025-04-14 20:48:02,169 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:48:02,761 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490396/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:48:02,762 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:48:02,763 - INFO - Processing SRR8490397
+2025-04-14 20:48:03,386 - ERROR - Command failed: prefetch SRR8490397 --output-directory ./results/raw_data
+2025-04-14 20:48:03,387 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:48:04,001 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490397/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:48:04,002 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:48:04,003 - INFO - Processing SRR8490398
+2025-04-14 20:48:04,606 - ERROR - Command failed: prefetch SRR8490398 --output-directory ./results/raw_data
+2025-04-14 20:48:04,607 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:48:05,195 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490398/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:48:05,196 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:48:05,197 - INFO - Processing SRR8490399
+2025-04-14 20:48:05,778 - ERROR - Command failed: prefetch SRR8490399 --output-directory ./results/raw_data
+2025-04-14 20:48:05,779 - ERROR - Error message: /bin/sh: 1: prefetch: Permission denied
+
+2025-04-14 20:48:06,344 - ERROR - Command failed: fasterq-dump ./results/raw_data/SRR8490399/*.sra -O ./results/raw_data --split-files -e 16
+2025-04-14 20:48:06,345 - ERROR - Error message: /bin/sh: 1: fasterq-dump: not found
+
+2025-04-14 20:48:06,346 - ERROR - Pipeline failed: module 'utils.file_utils' has no attribute 'create_dir'
